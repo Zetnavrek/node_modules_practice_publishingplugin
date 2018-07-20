@@ -1,12 +1,18 @@
 {
   "name": "npm-modules-practica-plugin",
   "version": "1.0.0",
-  "description": "",
-  "main": "node.js",
+  "description": "Repeats 'Nunca mas' as many times as needed", // 1-Se crea la descripcion
+  "main": "lib/alanPoe.js",//1-se crea el archivo de dondese consumira.
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/.bin/babel src --out-dir lib"//1- se agrega el build
   },
-  "author": "",
+
+  "repository": { //Paso 2 se crean las dependedncias para "repository"
+    "type":"git",
+    "url": "https://github.com/Zetnavrek/node_modules_practice_publishingplugin.git"
+  },
+  "author": "evy_v <vykovi@gmial.com>", //paso 3 Se agrega la firma del paquete
   "license": "ISC",
   "devDependencies": {
     "babel-cli": "^6.26.0",
