@@ -1,7 +1,7 @@
 {
   "name": "npm-modules-practica-plugin",
   "version": "1.0.0",
-  "description": "Repeats 'Nunca mas' as many times as needed", // 1-Se crea la descripcion
+  "description": "Repeats never more as many times as needed", // 1-Se crea la descripcion
   "main": "lib/alanPoe.js",//1-se crea el archivo de dondese consumira.
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
